@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/photon.min.css">
+    <title>Clientes</title>
+</head>
+
+<body>
+    <div class="window">
+        <header class="toolbar toolbar-header">
+            <h1 class="title">Clientes</h1>
+        </header>
+
+        <div class="window-content">
+            <div class="pane-group">
+                <div class="pane">
+                    <div class="padded-more">
+                        <div class="form-group">
+                            <label><img class="img-circle media-object pull-left" src="img/1.png" width="32"
+                                    height="32"></label>
+                        </div>
+                        <div class="form-group">
+                            <label><span class="icon icon-user"></span></label>
+                            <input type="text" name="idNombre" id="idNombre" class="form-control"
+                                placeholder="Nombre cliente">
+                        </div>
+                        <div class="form-group">
+                            <label><span class="icon icon-phone"></span></label>
+                            <input type="text" name="idTelefono" id="idTelefono" class="form-control"
+                                placeholder="Telefono cliente">
+                        </div>
+                        <div class="form-group">
+                            <label><span class="icon icon-address"></span></label>
+                            <input type="text" name="idDireccion" id="idDireccion" class="form-control"
+                                placeholder="Direccion cliente">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="pane">
+                    <div class="padded-more">
+                        <div class="form-group">
+                            <label><img class="img-circle media-object pull-left" src="img/2.png" width="32"
+                                    height="32"></label>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="radio">
+                                        <label>
+                                            <input id="rpeque" type="radio" name="rtamanno" value="Pequeño" checked>
+                                            Pequeña
+                                        </label>
+                                        <label>
+                                            <img class="img-circle media-object pull-left" src="img/pizza1.png"
+                                                width="32" height="32">
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="radio">
+                                        <label>
+                                            <input id="rmediano" type="radio" name="rtamanno" value="Mediano">
+                                            Mediano
+                                        </label>
+                                        <label>
+                                            <img class="img-circle media-object pull-left" src="img/pizza1.png"
+                                                width="64" height="64">
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="radio">
+                                        <label>
+                                            <input id="rgrande" type="radio" name="rtamanno" value="Grande">
+                                            Grande
+                                        </label>
+                                        <label>
+                                            <img class="img-circle media-object pull-left" src="img/pizza1.png"
+                                                width="128" height="128">
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form-group">
+                            <label><img class="img-circle media-object pull-left" src="img/3.png" width="32"
+                                    height="32"></label>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="radio">
+                                        <label>
+                                            <input id="rDelgado" type="radio" name="rGrosor" value="Delgado" checked>
+                                            Delgado
+                                        </label>
+                                        <label>
+                                            <img class="img-circle media-object pull-left" src="img/pizza2.png"
+                                                width="32" height="32">
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="radio">
+                                        <label>
+                                            <input id="rGrueso" type="radio" name="rGrosor" value="Grueso">
+                                            Grueso
+                                        </label>
+                                        <label>
+                                            <img class="img-circle media-object pull-left" src="img/pizza2.png"
+                                                width="64" height="64">
+                                        </label>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pane">
+                    <label><img class="img-circle media-object pull-left" src="img/4.png" width="32"
+                            height="32"></label>
+                    <div id="ingredientes" class="form-group">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="toolbar toolbar-footer">
+            <div class="toolbar-actions">
+                <button type="button" id="btn2" class="btn btn-primary pull-right">
+                    Cancelar
+                </button>
+
+                <button type="button" id="btn1" class="btn btn-primary pull-right">
+                    Aceptar
+                </button>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="./interfazG.js"></script>
+</body>
+
+</html>
